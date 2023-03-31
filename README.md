@@ -1,8 +1,7 @@
-# Cryptocurrencies-
-Use Unsupervised Learning with Cryptocurrencies 
+# Cryptocurrencies- Overview
 
+In this analysis we used a credit card credit dataset from LendingClub, and applied unsupervised learning by oversampling the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. We then use a combinatorial approach of over- and undersampling using the SMOTEENN algorithm. Followed by comparing two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. 
 
-# Overview of the analysis: Explain the purpose of this analysis.
 
 # Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
