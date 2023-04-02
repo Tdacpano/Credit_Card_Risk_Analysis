@@ -1,4 +1,4 @@
-# Cryptocurrencies- Overview
+Credit Card Risk Analysis- Overview
 
    In this analysis we used a credit card credit dataset from LendingClub, and applied unsupervised learning by oversampling the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. We then use a combinatorial approach of Over- and Undersampling using the SMOTEENN algorithm. Followed by comparing two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. 
 
