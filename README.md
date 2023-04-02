@@ -36,7 +36,7 @@
    
    Next we combined both OverSampling and UnderSampling using the SMOTEENN algorithm to determine if the results from the combinatorial approach are better at predicting credit risk than the resampling algorithms. We can see in this model that the balanced accuracy score is around 64%. The high_risk precision is still about 1%, with a 72% recall, making the F1 score still around 2%. Comparing the high_risk to the low_risk population, low_risk recieved a  precision of almost 100%, with recall of 57% and a F1 score of 72%. The SMOTEENN model came back with results that were a bit similar to the OverSampling models then the ClusterCentroids model. 
 # Ensemble Classifers
-    We continued our analysis by training and comparing two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate each model. 
+  We continued our analysis by training and comparing two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate each model. 
 
 # BalancedRandomForestClassifier: 
 <img width="268" alt="Screen Shot 2023-04-02 at 10 35 52 AM" src="https://user-images.githubusercontent.com/117120227/229369346-e0085178-5d78-4bb9-a517-f603c9967658.png">
